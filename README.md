@@ -7,3 +7,4 @@
 Todo:
 - Add images
 - Make responsive.
+- Add references
