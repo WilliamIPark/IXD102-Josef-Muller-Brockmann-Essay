@@ -1,0 +1,135 @@
+body
+{
+    font-size: 100%;
+    line-height: 1.8em;
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+    font-weight:normal;
+}
+
+em
+{
+    font-style:italic;
+}
+
+section
+{
+    clear:both;
+    padding-top:3em;
+}
+
+.main-header
+{
+    background-color:black;
+    color:white;
+    height: 20em;
+    text-transform: lowercase;
+    padding-top:6em;
+    font-weight: 600;
+}
+
+.header-wrap
+{
+    width:55%;
+    height:100%;
+    margin:auto;
+}
+
+.text-body
+{
+    width:55%;
+    margin: auto;
+}
+
+footer
+{
+    clear:both;
+    height:4em;
+}
+
+/* ==============Typography================= */
+
+p
+{
+    font-size: 1.25em;
+    line-height:1.5em;
+    margin-bottom: 1em;
+}
+
+.main-header h1
+{
+    font-size: 5.063em;
+    line-height: 1em;
+}
+
+.main-header h2
+{
+    font-size: 2.25em;
+    text-align:right;
+    line-height:1em;
+    padding-top:0.1em;
+}
+
+.intro p
+{
+    font-size: 1.5em;
+    margin-top: 2em;
+    line-height: 1.5em;
+    color:#777;
+}
+
+h3
+{
+    font-size:1.75em;
+    font-weight: 700;
+    line-height:1.3em;
+    text-transform: lowercase;
+}
+
+blockquote
+{
+    font-size: 1.5em;
+    font-style:italic;
+    color: #777;
+    margin: 2em;
+    margin-bottom: 0.5em;
+    line-height:1.5em;
+}
+cite
+{
+    font-size:1em;
+    color:#777;
+    font-style: italic;
+    margin-left:3em;
+    display:block;
+    margin-bottom:3em;
+}
+
+
+/* ===============Grid Blocks============== */
+
+#grid-block-1
+{
+    float:left;
+    width:25%;
+    margin-right:2.5%;
+}
+
+#grid-block-3
+{
+    float:left;
+    width:72.5%;
+    text-align: right;
+}
+
+#text-grid-1
+{
+    float:left;
+    width:25%;
+    margin-right:2.5%;
+}
+
+#text-grid-3
+{
+    float:left;
+    width:72.5%;
+}
