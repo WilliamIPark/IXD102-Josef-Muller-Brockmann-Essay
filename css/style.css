@@ -29,21 +29,47 @@ section
 
 .header-wrap
 {
-    width:55%;
+    width:60%;
     height:100%;
     margin:auto;
 }
 
 .text-body
 {
-    width:55%;
+    width:60%;
     margin: auto;
 }
 
 footer
 {
     clear:both;
-    height:4em;
+    background-color:black;
+    color:white;
+}
+
+footer section
+{
+    background-color:black;
+    width:60%;
+    margin:auto;
+    padding-top:3em;
+    padding-bottom:3em;
+}
+
+footer section li
+{
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    line-height: 3em;
+}
+
+a
+{
+    color:black;
+    text-decoration: none;
+    background-color: white;
+    padding:8px;
+    border-radius: 5px;
 }
 
 /* ==============Typography================= */
@@ -132,4 +158,104 @@ cite
 {
     float:left;
     width:72.5%;
+}
+
+/* ===================IMAGES====================*/
+
+
+#imgwrap
+{
+    width:100%;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+#imgwrap img
+{
+    max-width:40%;
+    margin-left:2.5%;
+    margin-right:2.5%
+}
+
+/* ======================MEDIA QUERIES======================= */
+
+
+/* TABLET*/
+@media (max-width: 70em)
+{
+    .text-body
+    {
+     width:80%;   
+    }
+    
+    .header-wrap
+    {
+     width: 80%;   
+    }
+}
+
+/* SPACING FIXES */
+
+@media (max-width: 48em)
+{
+    #text-grid-1
+    {
+        float:none;
+        width:100%;
+        margin: 0%;
+        margin-bottom: 1em;
+    }
+    
+    #text-grid-3
+    {
+        float:none;
+        width:100%;
+        margin: 0%;
+    }
+    
+    .main-header h1
+    {
+        font-size: 3.375em;
+    }
+
+    .main-header h2
+    {
+        font-size: 1.5em;
+        line-height:1.5em;
+    }
+    
+    .main-header
+    {
+        height: 15em;
+    }
+}
+
+/* SMARTPHONE */
+@media (max-width: 30em)
+{
+   
+    .text-body
+    {
+     width:90%;   
+    }
+    
+    .header-wrap
+    {
+     width: 90%;   
+    }
+    
+    blockquote
+    {
+        font-size: 1.5em;
+        font-style:italic;
+        color: #777;
+        margin: 0.5em;
+        margin-top: 1em;
+    }
+    
+    cite
+    {
+        margin: 0.5em;   
+        margin-bottom:2em;
+    }
 }
